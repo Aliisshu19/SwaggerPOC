@@ -1,0 +1,10 @@
+# Server properties
+spring:
+   datasource:
+      platform: h2
+      url: jdbc:h2:./amir
+
+   h2: 
+    console:
+      enabled: true
+      path: /h2-console
