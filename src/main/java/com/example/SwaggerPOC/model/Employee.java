@@ -17,10 +17,10 @@ public class Employee {
 	
 	@NotNull
 	private String firstName;
-    private String lastName;
-    private String email;
+    	private String lastName;
+    	private String email;
     
-    public String getId() {
+    	public String getId() {
 		return id;
 	}
 	public void setId(String id) {
